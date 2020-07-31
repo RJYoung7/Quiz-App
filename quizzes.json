@@ -1,0 +1,51 @@
+[
+  {
+    "questions": [
+      {
+        "question": "How do you destructure an object?",
+        "possibleAnswer": [
+          {
+            "id": "A",
+            "answer": "{ first, second}"
+          },
+          {
+            "id": "B",
+            "answer": "const obj = { first: 'Jane', last: 'Doe' }"
+          },
+          {
+            "id": "C",
+            "answer": "I don't know"
+          },
+          {
+            "id": "D",
+            "answer": "What the hell is destructuring?"
+          }
+        ],
+        "answerId": "B"
+      },
+      {
+        "question": "What does JS stand for?",
+        "possibleAnswer": [
+          {
+            "id": "A",
+            "answer": "Javascript"
+          },
+          {
+            "id": "B",
+            "answer": "JuneSeptember"
+          },
+          {
+            "id": "C",
+            "answer": "Jscript"
+          },
+          {
+            "id": "D",
+            "answer": "Java Section"
+          }
+        ],
+        "answerId": "A"
+      }
+    ],
+    "name": "My quiz"
+  }
+]

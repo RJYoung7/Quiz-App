@@ -1,0 +1,17 @@
+{
+    "name": "quizapp",
+    "version": "1.0.0",
+    "description": "***\r Test your Javascript knowledge!  This quiz contains a variety of questions that will help you better your understanding of the language.",
+    "main": "index.js",
+    "dependencies": {
+        "bulma": "^0.9.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.4"
+    },
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
