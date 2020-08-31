@@ -26,23 +26,6 @@ class Question {
         this.possibleAnswers[3].answer = D;
         this.answerId = answer;
     }
-
-    setQuestion(question) {
-        this.question = question;
-    }
-
-    setPossibleAnswer(id, possibleAnswer) {
-        id = id.toUpperCase();
-        for (let posAns of this.possibleAnswer) {
-            if (posAns.id === id) {
-                posAns.answer = possibleAnswer;
-            }
-        }
-    }
-
-    setAnswer(answerId) {
-        this.answerId = answerId;
-    }
 }
 module.exports = {
     Question: Question
